@@ -1,0 +1,270 @@
+html{
+    margin: 0 3rem ;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+
+.header {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 10% 60% auto;
+    /* Fija Menu */
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+
+/*Logo */
+.header__logo { 
+    padding: 1rem 0;
+}
+
+/* Menu1 */
+.header__menu, .header__comunicacion {
+    line-height: 100px;
+}
+
+.header__enlace{
+  color:black;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  margin: 0px 20px;
+}
+
+/* Comunicacion */
+.header__comunicacion__boton{
+    border: 0.1rem solid blue;
+    border-radius: 0.25rem;
+    background-color: white;
+    color: blue;
+    padding: 1rem;
+}
+
+/* Main */
+
+
+/* Portada - Slide */
+
+.portada{
+    border: 1px solid black;
+    width: 100%;
+    height: 45rem;
+    display: grid;
+    grid-template-columns: auto 70%;
+    margin: 7rem 0;
+}
+
+.portada__ubicacion{
+    background-color: lightgreen;
+    margin:2rem 0;
+    height: 40rem;
+    width: 31rem;
+    border-radius: 0.5rem;
+}
+
+.portada__carrusel{
+    z-index: -1;
+    background-color: lightcoral;
+    width: 81rem;
+    height: 45rem;
+    position:absolute;
+    margin: 0 17.5rem;
+    border-radius: 0.5rem;
+    /* Carrusel */   
+}
+
+.portada__carrusel__imagen {
+    background-repeat: no repeat;
+    background-size: cover;
+    position: absolute;
+    height: 45.5rem;
+}
+/* Carrusel */
+
+
+
+/* Workspace */
+.workspace {
+    padding: 6rem 0;
+}
+
+.workspace__header {
+    display:flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+.workspace__enlace {
+    line-height: 70px;
+}
+
+.workspace__contenedor {
+    display: flex;
+}
+
+/*Caja Exterior */
+.workspace__caja { 
+    border: 0.1rem solid lightgray;
+    border-radius: 0.25rem;
+    height: 15rem;
+    width: 22rem ;
+    margin: 1rem;
+}
+
+/*Caja interior*/
+.workspace__caja__interio {
+    margin: 1rem 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.workspace__caja__imagen{
+    height: 10rem;
+    margin: 0.5rem 1rem 0 0;
+}
+
+.workspace__caja__cantidad {
+    border: 0.1rem solid lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.workspace__caja__cantidad__imagen {
+    height: 1.1rem;
+    margin: auto 1rem;
+}
+
+/* Ubicacion*/
+.ubicacion {
+    /* Exterior */
+    background-color: lightgray;
+    height: 40rem;
+    width: 107%;
+    margin-left: -3.4rem;
+    /* Interior */
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+
+.ubicacion__caracteres {
+    margin:2.5rem 4rem;
+    margin-bottom: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ubicacion__mapa {
+    margin: 5rem;
+    height: 6rem;
+}
+
+/* Empresas */
+.empresas {
+    background-color: lightblue;
+}
+
+.empresas__descripcion__titulo {
+    padding: 2rem 0;
+}
+
+.empresas__descripcion__contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.empresas__descripcion__contenido__c1{
+    padding: 2.5rem 0;
+    width: 58rem;
+}
+
+.empresas__descripcion__contenido__c2{
+    padding: 3rem;
+    line-height: 50px;
+}
+
+.empresas__logo {
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.empresas__caja{
+    background-color: lightgray;
+    height: 8rem;
+    width: 14rem;
+    /*Centrar imagenes*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* importancia*/
+
+.importancia__header {
+    background-color: lightcyan;
+}
+
+.importancia__portada {
+    display: flex;
+}
+
+.importancia__contenido {
+    text-align: left;
+    margin: 8rem 2.5rem;
+}
+
+.importancia__bloque{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+}
+
+.importancia__bloque__caja{
+    margin-inline-end: 2rem;
+    margin-top: 5rem;
+}
+
+.importancia__bloque__caja__imagen{
+    width: 31rem;
+    border-radius: 0.25rem;
+}
+
+/* Footer */
+.footer {
+        /* Exterior */
+        background-color: lightgray;
+        height: 40rem;
+        width: 107%;
+        margin-left: -3.4rem;
+}
+
+
+.footer__c1{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+}
+
+.footer__c2 {
+    display: flex;
+    
+}
+
+.footer__interacciones{
+    background-color: lightcyan;
+    height: 15rem;
+    width: 15rem;
+    margin: 4rem;
+    margin-inline-end: -4rem;
+}
+
+.footer__imagen {
+    height: 1.5rem;
+}

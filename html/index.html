@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagen/x-icon" href="/img/logoWe.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Proyecto Final Html & Css</title>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <a href="/html/index.html">
+                <img class="header__logo" src="/img/wework.svg" alt="logotipo">
+            </a>
+        </div>
+        <nav class="header__menu">
+                <a class="header__enlace" href="#">Encuentra una Ubicacion</a>
+                <a class="header__enlace" href="#">Soluciones</a>
+                <a class="header__enlace" href="#">Enterprise</a>
+        </nav>
+        <nav class="header__comunicacion">
+            <a class="header__comunicacion__boton" href="#">Contáctanos</a>
+            <a class="header__enlace" href="#">Inicio de sesión de miembros</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="portada">
+            <div class="portada__ubicacion">
+                <h2>Estamos aqui para todas tus maneras de trabajar</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptatum eos officiis dolorum harum magnam et enim. Explicabo beatae quos ipsum illum sit distinctio libero. Odio quidem rem quibusdam eaque.</p>
+                <fieldset>
+                    <legend> Buscar espacio de trabajo en </legend>
+                        <select id="ciudad">
+                            <optgroup label="Argentina">
+                                <option>Buenos Aires</option>
+                            </optgroup> 
+                        </select>
+                </fieldset>
+            </div>
+
+            <div class="portada__carrusel">
+                <img class="portada__carrusel__imagen" src="/img/carrusel1.jpg">
+            </div>
+             
+        </div>
+        
+        <!-- Aca va un section? -->
+        <section class="workspace">
+            <div class="workspace__header">
+                <h2>¿Qué estás buscando?</h2>
+                <a class="workspace__enlace" href="#">Ver todas las soluciones</a>
+                <!-- Flechita -->
+            </div>
+
+            <div class="workspace__contenedor">
+                <div class="workspace__caja">
+                        <a class="workspace__caja__interio">
+                            <div class="workspace__caja__imagen">
+                                <img src="/img/w1.png">
+                            </div>
+                            <div>
+                                <h3>Oficina Privada</h3>
+                                <p>Listas para entrar, equipos de todos los tamaños</p>
+                                <div class="workspace__caja__cantidad" >
+                                    <img class="workspace__caja__cantidad__imagen" src="/img/WeWork_Icon_Person.png">
+                                    <p>1- + 100</p>
+                                </div>
+                            </div>
+                        </a>
+                </div>
+
+                <div class="workspace__caja">
+                    <a class="workspace__caja__interio">
+                        <div class="workspace__caja__imagen">
+                            <img src="/img/w2.png">
+                        </div>
+                        <div>
+                            <h3>Escritorio Personal</h3>
+                            <p>Tu propio escritorio en una oficina compartida</p>
+                            <div class="workspace__caja__cantidad" >
+                                <img class="workspace__caja__cantidad__imagen" src="/img/WeWork_Icon_Person.png">
+                                <p>1-4</p>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+
+            <div class="workspace__caja">
+                <a class="workspace__caja__interio">
+                    <div class="workspace__caja__imagen">
+                        <img src="/img/w3.png">
+                    </div>
+                    <div>
+                        <h3>Suscripción a espacios flexibles y compartidos</h3>
+                        <p>Espacios, lounges, cabinas telefónicas y más</p>
+                        <div class="workspace__caja__cantidad" >
+                            <img class="workspace__caja__cantidad__imagen" src="/img/WeWork_Icon_Person.png">
+                            <p>1+</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="ubicacion">
+            <div class="ubicacion__caracteres">
+                <p>Red Internacional</p>
+                <h2>Espacios de trabajo donde y cuando los necesitas</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro natus voluptatibus cupiditate quod ex fuga corrupti fugiat vero! Neque necessitatibus ut non totam voluptate optio. Architecto porro est animi? Nostrum!</p>
+                <a href="#">Explora nuestras ubicaciones</a>
+            </div>
+            <div class="ubicacion__mapa">
+                <Img src="/img/mapa.jpg">
+            </div>
+        </section>
+
+        <section>
+            <div class="empresas__descripcion">
+                <div class="empresas__descripcion__titulo">
+                    <h2>Hacemos posible el mundo del mañana en el trabajo</h2>
+                </div>
+                <div class="empresas__descripcion__contenido">
+                    <div class="empresas__descripcion__contenido__c1">
+                    <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error esse ipsum perspiciatis eaque aliquid porro nobis voluptatibus recusandae qui, cupiditate magnam omnis laborum consequuntur ipsa odit dolorum reprehenderit deleniti. Dicta.</p>
+                    </div>
+                    <div class="empresas__descripcion__contenido__c2">
+                    <a href="#">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="empresas__logo">
+                <div class="empresas__caja">
+                    <img class="empresas__caja__imagen" src="/img/logo_microsoft.png"> 
+                </div>
+                <div class="empresas__caja">
+                    <img src="/img/logo_pfizer.png">
+                </div>
+                <div class="empresas__caja">
+                    <img src="/img/logo_samsung.png">
+                </div>
+                <div class="empresas__caja">
+                    <img src="/img/logo_Salesforce.png">
+                </div>
+                <div class="empresas__caja">
+                    <img src="/img/logo_visa.png">
+                </div>
+                <div class="empresas__caja">
+                    <img src="/img/logo_zoom.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="importancia">
+            <div class="importancia__header">
+                <p>IDEAS DE WEWORK</p>
+                <h2>Tendencias y experiencias en espacios de trabajo</h2>
+            </div>
+            <div class="importancia__portada">
+                <div>
+                    <a href="#">
+                        <img src="/img/importancia portada.jpg" >
+                    </a>
+                </div>
+                <div class="importancia__contenido">
+                    <a href="#">
+                        <p>ESTUDIOS DE INVESTIGACION</p>
+                    </a>
+                    <a href="#">
+                        <h3>La importancia de los espacios de oficina flexibles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae rerum exercitationem iure ex veniam saepe libero eum? Beatae rerum ratione illum quos hic! In, molestiae ipsam. Quasi, nisi recusandae.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="importancia__bloque">
+                <div class="importancia__bloque__caja">
+                    <a href="#">
+                        <img class="importancia__bloque__caja__imagen" src="/img/importancia1.jpg">
+                    </a>
+                    <a>
+                        <p>PRODUCTOS FLEXIBLES</p>
+                    </a>
+                    <a>
+                        <h3>Un espacio de trabajo de vanguardia cerca de Washington, D.C.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid omnis doloremque doloribus, illo vero dolore vel pariatur nam assumenda ut optio tempore. Sit excepturi veritatis saepe animi nisi consequuntur!</p>
+                    </a>                    
+                </div>
+                <div class="importancia__bloque__caja">
+                    <a href="#">
+                        <img class="importancia__bloque__caja__imagen" src="/img/importancia2.jpg">
+                    </a>
+                    <a>
+                        <p>PRODUCTOS FLEXIBLES</p>
+                    </a>
+                    <a>
+                        <h3>Un espacio de trabajo de vanguardia cerca de Washington, D.C.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid omnis doloremque doloribus, illo vero dolore vel pariatur nam assumenda ut optio tempore. Sit excepturi veritatis saepe animi nisi consequuntur!</p>
+                    </a>                    
+                </div>
+                <div class="importancia__bloque__caja">
+                    <a href="#">
+                        <img class="importancia__bloque__caja__imagen" src="/img/importancia3.jpg">
+                    </a>
+                    <a>
+                        <p>PRODUCTOS FLEXIBLES</p>
+                    </a>
+                    <a>
+                        <h3>Un espacio de trabajo de vanguardia cerca de Washington, D.C.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid omnis doloremque doloribus, illo vero dolore vel pariatur nam assumenda ut optio tempore. Sit excepturi veritatis saepe animi nisi consequuntur!</p>
+                    </a>                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__c1">
+            <div class="footer__c2">
+                <div class="footer__interacciones">
+                    <h4>EMPRESA</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Ubicaciones globales</a>
+                        </li>
+                        <li>
+                            <a href="#">Misión</a>
+                        </li>
+                        <li>
+                            <a href="#">Inclusión y diversidad</a>
+                        </li>
+                        <li>
+                            <a href="#">Inversores</a>
+                        </li>
+                        <li>
+                            <a href="#">Sala de prensa</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__interacciones">
+                    <h4>COLABORACIONES</h4>
+                        <ul>
+                            <li>
+                                <a href="#">Propietarios</a>
+                            </li>
+                            <li>
+                                <a href="#">Recomienda a un amigo</a>
+                            </li>
+                            <li>
+                                <a href="#">Organizadores de eventos</a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="footer__interacciones">
+                    <h4>SOPORTE</h4>
+                        <ul>
+                            <li>
+                                <a href="#">Contáctanos</a>
+                            </li>
+                            <li>
+                                <a href="#">Inicio de sesión para miembros</a>
+                            </li>
+                            <li>
+                                <a href="#">Preguntas frecuentes</a>
+                            </li>
+                            <li>
+                                <a href="#">Respuesta al COVID-19</a>
+                            </li>
+                        </ul>
+                </div>
+                
+                <div class="footer__c2">
+                    <div>
+                        <img class="footer__imagen" src="/img/youtube.png">
+                    </div>
+                    <div>
+                        <img class="footer__imagen" src="/img/facebook.png">
+                    </div>
+                    <div>
+                        <img class="footer__imagen" src="/img/instagram.png">
+                    </div>
+                    <div>
+                        <img class="footer__imagen" src="/img/twitter.png">
+                    </div>
+                    <div>
+                        <img class="footer__imagen" src="/img/linkedin.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </footer>
+    
+</body>
+</html>
+
+<!-- Tips Eli 
+fixed css
+z index css
+carrusel ccs-->
+
+<!-- Codepen (Fragmento de codigo)-->
+<!-- Transiciones para Css -->
+<!-- webcode.tools, Keyframe animation... (Css Generador) -->
+<!-- Drop Shadow -->
